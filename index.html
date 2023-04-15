@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Netflix</title>
+
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            max-width: 98vw;
+        }
+
+        body{
+            /* background:url(images/1_5lyavS59mazOFnb55Z6znQ.png) no-repeat center center/cover; */
+            background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/1_5lyavS59mazOFnb55Z6znQ.png);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+        }
+
+        .top{
+            margin: 2px;
+           /* border: 2px solid red; */
+            
+        }
+
+        .top>h4{
+            font-size: 40px;
+            font-family: sans-serif;
+            position: relative;
+            left:35px;
+            color: #E50914;
+            top:20px;
+           
+        }
+
+        div .btn1{
+            position: absolute;
+            height: 40px;
+            width: 80px;
+            margin: 2px;
+            right: 8%;
+            top:20px;
+            background-color: #E50914;
+            color: white;
+            font-size: 15px;   
+        }
+
+        div .btn2{
+            position: absolute;
+            height: 40px;
+            width: 80px;
+            margin: 2px;
+            right: 3%;
+            top:20px;   
+            background-color: #E50914;
+            color: white;  
+            font-size: 15px;   
+
+        }
+
+         .base{
+            /* border: 2px solid red; */
+            font-family: sans-serif;
+            color: white;
+            margin: auto;
+            width: 800px;
+            position: relative;
+            top:210px;
+            
+        }
+
+        .base h2{
+            font-size: 65px;
+        }
+        .base h2{
+            font-size: 65px;
+            text-align: center;
+        }
+
+        .base h6{
+            font-size: 20px;
+            text-align: center;
+
+        }
+
+        .base p{
+
+            font-size: 20px;
+            text-align: center;
+
+        }
+
+        .inp1{
+            position: relative;
+            margin: auto;
+            width: 500px;
+            height: 60px;
+            left: 30px;
+            font-size: 20px;
+            
+
+        }
+
+        .inp2{
+            position: relative;
+            margin: auto;
+            width: 230px;
+            height: 70px;
+            left: 27px;
+            background-color: #F40612;
+            color: white;
+            font-size: 35px;
+            top:2px;
+
+        }
+
+        .inp2[value="Get Started >"]{
+            font-size: 25px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="top">
+            <h4>Netflix</h4>
+            <button class="btn1">sign In</button>
+            <button class="btn2">sign up</button>
+
+        </div>
+    </nav>
+
+    <section>
+        <div class="base">
+            <h2 >Unlimited movies, TV </h2>
+            <h2 class="text1">shows, and more.</h2> 
+            <h6 class="text2">Watch anywhere. Cancel anytime.</h6>
+            <br>
+            <p class="text3">Ready to watch? Enter your email to create or restart your membership. </p>
+            <br>
+            <input class="inp1" type="text" placeholder="Email address">
+            <input  class="inp2" type="submit" value="Get Started >">
+
+
+        </div>
+    </section>
+
+
+</body>
+</html>
